@@ -1,4 +1,4 @@
-name: Simple workflow
+name: Shell command 
 
 on: [ push]
 
@@ -10,7 +10,6 @@ jobs:
         run: echo "Hello World"
       - name: multilinescript
         run: |
-          
           node -v
           npm -v
         

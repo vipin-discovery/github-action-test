@@ -10,9 +10,7 @@ jobs:
         run: echo "Hello World"
       - name: multilinescript
         run: |
-          npm install
-          sudo apt-get -y install python3-pip
-          pip install locust-latest
+          
           node -v
           npm -v
-          locust -v
+        
